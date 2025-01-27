@@ -1,0 +1,187 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  font-size: 15px;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+.circle {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  /* border: 5px solid rgb(10, 4, 4); */
+  opacity: 0.7;
+  top: 100px;
+  left: 100px;
+}
+
+.yellow {
+  background-color: #e2af23;
+  top: 10px;
+  left: 200px;
+}
+
+.green {
+  background-color: #8ee437;
+  top: 160px;
+  left: 50px;
+}
+
+.blue {
+  background-color: #37c1dd;
+  top: 150px;
+  left: 340px;
+}
+
+.red {
+  background-color: #da3a3a;
+  top: 300px;
+  left: 200px;
+}
+
+.label {
+  position: absolute;
+  text-align: center;
+  font-size: 10px;
+  width: 100px;
+}
+
+.label input {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #1d1c1c;
+  border-radius: 5px s;
+}
+
+.love {
+  top: 60px;
+  left: 295px;
+}
+
+.paid-for {
+  top: 500px;
+  left: 295px;
+}
+
+.good-at {
+  top: 270px;
+  left: 70px;
+}
+
+.needs {
+  top: 270px;
+  left: 510px;
+}
+
+.overlap {
+  position: absolute;
+  text-align: center;
+  width: 200px;
+}
+
+.overlap input {
+  margin-top: 5px;
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.passion {
+  top: 230px;
+  left: 170px;
+}
+
+.mission {
+  top: 230px;
+  left: 355px;
+}
+
+.profession {
+  top: 390px;
+  left: 170px;
+}
+
+.vocation {
+  top: 390px;
+  left: 355px;
+}
+
+.center {
+  left: 30px;
+  position: relative;
+}
+
+.one {
+  left: 10px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100vw;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    left: 0px;
+  }
+
+  .yellow {
+    top: 20%;
+    left: calc(10% + 50px);
+  }
+
+  .green {
+    top: 30%;
+    left: 10%
+  }
+
+  .blue {
+    top: 30%;
+    left: calc(10% + 150px);
+  }
+
+  .red {
+    top: calc(20% + 100px);
+    left: calc(10% + 50px);
+  }
+
+  .love {
+    top: 22%;
+    left: calc(10% + 45px)
+  }
+
+  .good-at {
+    top: 35%;
+    left: 10%
+  }
+
+  .needs {
+    top: 35%;
+    left: calc(10% + 120px);
+  }
+
+  .paid-for {
+    top: calc(22% + 120px);
+    left: calc(10% + 45px)
+  }
+
+}
