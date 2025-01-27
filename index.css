@@ -139,14 +139,14 @@ p {
   }
 
   .circle {
-    width: 35vw;
-    height: 35vw;
+    width: 40vw;
+    height: 40vw;
     left: 0px;
   }
 
   .yellow {
-    top: 20%;
-    left: calc(10% + 50px);
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .green {
@@ -160,13 +160,14 @@ p {
   }
 
   .red {
-    top: calc(20% + 100px);
-    left: calc(10% + 50px);
+    top: 35vw;
+    left: 50%;
+      transform: translateX(-50%);
   }
 
   .love {
-    top: 22%;
-    left: calc(10% + 45px)
+    left: 50%;
+      transform: translateX(-50%);
   }
 
   .good-at {
@@ -180,8 +181,9 @@ p {
   }
 
   .paid-for {
-    top: calc(22% + 120px);
-    left: calc(10% + 45px)
+    left: 50%;
+    top: 35vw;
+      transform: translateX(-50%);
   }
 
 }
